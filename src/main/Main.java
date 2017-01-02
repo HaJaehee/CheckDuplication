@@ -25,9 +25,9 @@ public class Main {
 		if ( error ) {
 			System.out.println("Usage: \n" +
 					"If you want to extract numbers from names of all files in folders recursively and save it at \"filename\", use this\n" +
-					"CheckDuplication.jar --save \"filename\"\n" +
+					"java -jar CheckDuplication.jar --save \"filename\"\n" +
 					"If you want to check duplicated numbers between numbers from the file \"filename\" and numbers from names of all files in folders recursively, use this\n" +
-					"CheckDuplication.jar --check-dupl \"filename\"\n");
+					"java -jar CheckDuplication.jar --check-dupl \"filename\"\n");
 		}
 	}
 }
