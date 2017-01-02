@@ -1,5 +1,5 @@
 # CheckDuplication
-Check duplicated numbers between numbers from the file \"filename\" and numbers from names of all files in folders recursively.<br/>
+Check duplicated numbers between numbers from the file "filename" and numbers from names of all files in folders recursively.<br/>
 
 ## Usage
 If you want to extract numbers from names of all files in folders recursively and save it at "filename", use this<br/>
