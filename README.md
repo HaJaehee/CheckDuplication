@@ -1,4 +1,4 @@
-### CheckDuplication
+# CheckDuplication
 Check duplicated numbers between numbers from the file \"filename\" and numbers from names of all files in folders recursively.<br/>
 
 ## Usage
