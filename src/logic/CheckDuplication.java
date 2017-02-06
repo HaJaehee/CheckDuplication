@@ -50,13 +50,14 @@ public class CheckDuplication {
 					for ( int k = 0 ; k < m_fnameArr.size() ; k++ ) {
 						if ( m_fnameArr.get(k).contains(argNumArr.get(i)) ) {
 							System.out.println(argNumArr.get(i)+" : "+m_fnameArr.get(k));
+							duplNumArr.add(argNumArr.get(i)+" : "+m_fnameArr.get(k));
 							if ( Configuration.debugging ) {
 								System.out.println("Add duplNumArr:"+argNumArr.get(i));
 							}
 						}
 						
 					}
-					duplNumArr.add(argNumArr.get(i));
+					//duplNumArr.add(argNumArr.get(i));
 					numArr.remove(j--);
 					break;
 				}
